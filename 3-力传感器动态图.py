@@ -130,5 +130,7 @@ if __name__ == '__main__':
     # - frames 总共帧数
     # - interval 每帧间隔时间(ms)
     ani = animation.FuncAnimation(fig, update, frames=np.arange(0, 100), interval=x_max / interval_num * 1000, fargs=(ax, line, x_max))
+    
     plt.show()
     print('每帧的时间间隔', x_max / interval_num * 1000, 'ms')
+    ani.save('animation.gif', writer='pillow', fps=20)

@@ -1,4 +1,4 @@
-# 力传感器处理与可视化软件
+# 【原位摩擦机】力传感器处理与可视化软件
 ![](https://img.shields.io/badge/license-MIT-blue)
 [![Gitee stars](https://gitee.com/g-dab/force-sensor-gui/badge/star.svg?theme=dark)](https://gitee.com/g-dab/force-sensor-gui)
 ## 传感器信息
@@ -35,3 +35,19 @@
 <center class="half">
     <img src="./src/pic/b1.png" width="400"/>
 </center>
+
+## 软件使用
+### 目录结构
+```
+Force Sensor GUI/
+├── README.md
+├── 1-力传感器读取.py
+├── 2-力传感器可视化.py
+├── 3-力传感器可视化-动态图.py
+├── src/
+│   ├── doc/ 变送器说明书
+│   ├── pic/
+├── test/
+```
+### 问题记录
+1. 动态图显示中时间间隔控制有问题, 时间一长python的animation.FuncAnimation库就没有办法精准的实现计时
