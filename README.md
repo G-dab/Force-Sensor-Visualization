@@ -1,4 +1,4 @@
-# 【原位摩擦机】力传感器处理与可视化软件
+# 力传感器处理与可视化软件
 ![](https://img.shields.io/badge/license-MIT-blue)
 [![Gitee stars](https://gitee.com/g-dab/force-sensor-gui/badge/star.svg?theme=dark)](https://gitee.com/g-dab/force-sensor-gui)
 ## 传感器信息
@@ -9,6 +9,7 @@
 | 输出 | 1.67439mV/V          |
 | 精度 | 0.1%                 |
 | 编码 | DG020016             |
+| 通讯协议 | RS485            |
 
 <center class="half">
     <img src="./src/pic/a1.jpg" width="400"/>
